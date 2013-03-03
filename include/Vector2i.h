@@ -1,9 +1,6 @@
 #ifndef _Vector2i_H_
 #define _Vector2i_H_
 
-#include <SDL/SDL.h>
-#include <GL/gl.h>
-#include <GL/glu.h>
 #include <stdio.h>
 #include <math.h>
 #include <string.h>

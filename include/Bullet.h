@@ -1,7 +1,7 @@
 #ifndef _BULLET_H_
 #define _BULLET_H_
 
-#include <SDL/SDL.h>
+#include <SFML/Graphics.hpp>
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <stdio.h>

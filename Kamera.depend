@@ -2,8 +2,8 @@
 1362262251 source:/home/xerpi/Escritorio/Kamera/source/Bullet.cpp
 	"Bullet.h"
 
-1362309499 /home/xerpi/Escritorio/Kamera/include/Bullet.h
-	<SDL/SDL.h>
+1362316277 /home/xerpi/Escritorio/Kamera/include/Bullet.h
+	<SFML/Graphics.hpp>
 	<GL/gl.h>
 	<GL/glu.h>
 	<stdio.h>
@@ -19,18 +19,16 @@
 
 1362267954 /home/xerpi/Escritorio/Kamera/include/Vector3f.h
 
-1362310173 /home/xerpi/Escritorio/Kamera/include/Utils.h
-	<SDL/SDL.h>
+1362316330 /home/xerpi/Escritorio/Kamera/include/Utils.h
+	<SFML/Graphics.hpp>
 	<GL/gl.h>
 	<GL/glu.h>
 
 1362256709 source:/home/xerpi/Escritorio/Kamera/source/Camera.cpp
 	"Camera.h"
 
-1362264621 /home/xerpi/Escritorio/Kamera/include/Camera.h
-	<SDL/SDL.h>
-	<GL/gl.h>
-	<GL/glu.h>
+1362316261 /home/xerpi/Escritorio/Kamera/include/Camera.h
+	<SFML/Graphics.hpp>
 	<stdio.h>
 	"Matrix.h"
 	"Vector3f.h"

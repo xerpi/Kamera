@@ -1,16 +1,13 @@
 #ifndef _CAMERA_H_
 #define _CAMERA_H_
 
-#include <SDL/SDL.h>
-#include <GL/gl.h>
-#include <GL/glu.h>
+#include <SFML/Graphics.hpp>
 #include <stdio.h>
 #include "Matrix.h"
 #include "Vector3f.h"
 
 extern Vector3f UP_VECTOR;
 extern Vector3f DOWN_VECTOR;
-
 
 class Camera
 {

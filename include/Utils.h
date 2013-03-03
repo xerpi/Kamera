@@ -1,9 +1,10 @@
 #ifndef _UTILS_H_
 #define _UTILS_H_
 
-#include <SDL/SDL.h>
+#include <SFML/Graphics.hpp>
 #include <GL/gl.h>
 #include <GL/glu.h>
+
 
 #define PI   3.14159265359
 #define PI_2 6.28318530718

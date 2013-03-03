@@ -1,6 +1,8 @@
 #include <SFML/Window.hpp>
 #include <SFML/OpenGL.hpp>
 #include <SFML/Graphics.hpp>
+#include <GL/gl.h>
+#include <GL/glu.h>
 #include <cstdlib>
 #include <stdio.h>
 #include <iostream>
@@ -22,8 +24,8 @@ unsigned int frame_count;
 float fps;
 
 sf::Window *window;
-Sint16 LjoyX = 0, LjoyY = 0;
-Sint16 RjoyX = 0, RjoyY = 0;
+int16_t LjoyX = 0, LjoyY = 0;
+int16_t RjoyX = 0, RjoyY = 0;
 
 Weapon weapon;
 
