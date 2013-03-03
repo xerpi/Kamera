@@ -83,11 +83,9 @@ public:
         for(it = bulletVector.begin(); it != bulletVector.end(); it++)
         {
             if(it->status == DEAD)
-            {
                 bulletVector.erase(it);
-                continue;
-            }
-            it->move();
+            else
+                it->move();
         }
     }
 
