@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1362262251 source:/home/xerpi/Escritorio/Kamera/source/Bullet.cpp
+	"Bullet.h"
+
+1362309499 /home/xerpi/Escritorio/Kamera/include/Bullet.h
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+	<iostream>
+	<vector>
+	"Matrix.h"
+	"Vector3f.h"
+	"Utils.h"
+
+1362231383 /home/xerpi/Escritorio/Kamera/include/Matrix.h
+	<math.h>
+	<string.h>
+
+1362267954 /home/xerpi/Escritorio/Kamera/include/Vector3f.h
+
+1362310173 /home/xerpi/Escritorio/Kamera/include/Utils.h
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1362256709 source:/home/xerpi/Escritorio/Kamera/source/Camera.cpp
+	"Camera.h"
+
+1362264621 /home/xerpi/Escritorio/Kamera/include/Camera.h
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+	"Matrix.h"
+	"Vector3f.h"
+
+1362223071 source:/home/xerpi/Escritorio/Kamera/source/Matrix.cpp
+	"Matrix.h"
+
+1362311197 source:/home/xerpi/Escritorio/Kamera/source/Utils.cpp
+	"Utils.h"
+
+1362256040 source:/home/xerpi/Escritorio/Kamera/source/Vector2i.cpp
+
+1362256040 source:/home/xerpi/Escritorio/Kamera/source/Vector3f.cpp
+
+1362314132 source:/home/xerpi/Escritorio/Kamera/source/main.cpp
+	<SFML/Window.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics.hpp>
+	<cstdlib>
+	<stdio.h>
+	<iostream>
+	"Camera.h"
+	"Vector3f.h"
+	"Vector2i.h"
+	"Bullet.h"
+	"Utils.h"
+
+1362260521 /home/xerpi/Escritorio/Kamera/include/Vector2i.h
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+	<math.h>
+	<string.h>
+
