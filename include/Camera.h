@@ -11,6 +11,7 @@
 extern Vector3f UP_VECTOR;
 extern Vector3f DOWN_VECTOR;
 
+
 class Camera
 {
     public:

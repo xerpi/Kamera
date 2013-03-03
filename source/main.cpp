@@ -27,6 +27,7 @@ Sint16 RjoyX = 0, RjoyY = 0;
 
 Weapon weapon;
 
+
 bool done = false;
 bool canFly = true, enableMouse = false;
 Vector3f position;
