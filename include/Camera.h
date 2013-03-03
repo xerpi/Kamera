@@ -11,14 +11,6 @@
 extern Vector3f UP_VECTOR;
 extern Vector3f DOWN_VECTOR;
 
-
-float Dot(Vector3f& vec1, Vector3f& vec2);
-Vector3f Cross(const Vector3f& vec1, const Vector3f& vec2);
-void Cross(Vector3f& vec1, Vector3f& vec2, Vector3f& result);
-Vector3f Cross(Vector3f& vec1, Vector3f& vec2);
-
-
-
 class Camera
 {
     public:
