@@ -14,7 +14,7 @@ OBJS = $(addprefix $(SOURCES)/, $(CPPFILES:.cpp=.o) $(CFILES:.c=.o) $(sFILES:.s=
 
 SOURCE_FILES = $(addprefix $(SOURCES)/, $(CPPFILES) $(CFILES) $(sFILES) $(SFILES))
 
-LIBS = -lsfml-graphics -lsfml-window
+LIBS = -lsfml-graphics -lsfml-window -lGL
 
 all: $(PROG)
 

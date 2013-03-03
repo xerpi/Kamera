@@ -270,6 +270,11 @@ void initSFML()
     window->setVerticalSyncEnabled(true);
 }
 
+if(it->status == DEAD)
+    bulletVector.erase(it);
+else
+    it->move();
+
 
 void initFPS()
 {
