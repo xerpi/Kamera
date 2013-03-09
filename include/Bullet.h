@@ -11,6 +11,8 @@
 #include "Vector3f.h"
 #include "Utils.h"
 
+#define BULLET_STEP_INC 0.1f
+
 enum BulletStatus
 {
     DEAD = 0,
@@ -23,6 +25,7 @@ class Bullet
 public:
     Vector3f  position, rotation, speed;
     BulletStatus status;
+    float step;
 
 
     Bullet(Vector3f _position, Vector3f _rotation, Vector3f _speed) : position(_position),
@@ -36,11 +39,14 @@ public:
         position.y = posy;
         position.z = posz;
         status = ALIVE;
+        step = 0.0f;
     }
 
     void move()
     {
         position += speed;
+        step += BULLET_STEP_INC;
+        position.y += sinf(step)/5.0f;
     }
 
     void kill()
@@ -91,6 +97,7 @@ public:
 
     void drawBullets(GLuint texture)
     {
+        printf("n bullets: %i\n", bulletVector.size());
         std::vector<Bullet>::iterator it;
         for(it = bulletVector.begin(); it != bulletVector.end(); it++)
         {

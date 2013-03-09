@@ -11,7 +11,9 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
 				<Compiler>
+					<Add option="-std=c++11" />
 					<Add option="-g" />
 				</Compiler>
 			</Target>
@@ -29,15 +31,26 @@
 			</Target>
 		</Build>
 		<Compiler>
-			<Add option="-Wall" />
+			<Add directory="include" />
 		</Compiler>
 		<Linker>
 			<Add library="sfml-graphics" />
 			<Add library="sfml-window" />
 			<Add library="sfml-system" />
 		</Linker>
-		<Unit filename="cb.bmp" />
-		<Unit filename="main.cpp" />
+		<Unit filename="include/Bullet.h" />
+		<Unit filename="include/Camera.h" />
+		<Unit filename="include/Matrix.h" />
+		<Unit filename="include/Utils.h" />
+		<Unit filename="include/Vector2i.h" />
+		<Unit filename="include/Vector3f.h" />
+		<Unit filename="source/Bullet.cpp" />
+		<Unit filename="source/Camera.cpp" />
+		<Unit filename="source/Matrix.cpp" />
+		<Unit filename="source/Utils.cpp" />
+		<Unit filename="source/Vector2i.cpp" />
+		<Unit filename="source/Vector3f.cpp" />
+		<Unit filename="source/main.cpp" />
 		<Extensions>
 			<envvars />
 			<code_completion />

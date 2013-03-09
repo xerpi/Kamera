@@ -184,10 +184,11 @@ void handleInput()
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::K) || sf::Joystick::isButtonPressed(0, 11) ||
             (enableMouse && sf::Mouse::isButtonPressed(sf::Mouse::Left)))
         {
-            Vector3f rot = (Vector3f){RAD_TO_DEG(pitch), RAD_TO_DEG(yaw), 0.0f};
-            weapon.addBullet(position, rot, look);
+            Vector3f rot = (Vector3f){(float)RAD_TO_DEG(pitch), (float)RAD_TO_DEG(yaw), 0.0f};
+            Vector3f speed = look/10.0f;
+            Vector3f pos = position + look;
+            weapon.addBullet(pos, rot, speed);
         }
-
         sf::Event event;
         while (window->pollEvent(event))
         {
